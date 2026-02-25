@@ -145,7 +145,7 @@ const Navbar = () => {
         <Link href="/" className="navbar-logo flex-shrink-0 group flex items-center gap-2 sm:gap-3">
           <div className="relative overflow-hidden rounded-lg">
             <Image
-              src="/assets/logo.png"
+              src="/assets/logo.PNG"
               alt="JantaraX Global IT Logo"
               width={180}
               height={60}
@@ -236,7 +236,7 @@ const Navbar = () => {
                 >
                   <div className="relative overflow-hidden rounded-xl p-1 bg-gradient-to-br from-primary/20 to-primary/5">
                     <Image
-                      src="/assets/logo.png"
+                      src="/assets/logo.PNG"
                       alt="JantaraX Global IT Pvt. Ltd. Logo"
                       width={180}
                       height={60}

@@ -50,7 +50,7 @@ const Footer = () => {
             <Link href="/" className="group flex items-start gap-3 mb-6">
               <div className="relative overflow-hidden rounded-lg flex-shrink-0">
                 <Image
-                  src="/assets/logo.png"
+                  src="/assets/logo.PNG"
                   alt="JantaraX Global IT Pvt. Ltd. Logo"
                   width={180}
                   height={60}
