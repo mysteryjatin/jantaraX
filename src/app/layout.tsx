@@ -14,7 +14,7 @@ const spaceGrotesk = Space_Grotesk({
 export const metadata: Metadata = {
   title: "JantaraX Global IT Pvt. Ltd.",
   description:
-    "JantaraX Global IT Pvt. Ltd. delivers cutting-edge technology and modern design to transform your business. Experience the power of 3D modals and storytelling in our solutions.",
+    "JantaraX Global IT Pvt. Ltd. Your Vision, Our Code",
 };
 
 export default function RootLayout({
