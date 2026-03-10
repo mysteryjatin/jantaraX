@@ -18,7 +18,7 @@ export default function Home() {
         <Projects key="projects" />
         <About key="about" />
         <Internship key="internship" />
-        <Feedback key="feedback" />
+        {/* <Feedback key="feedback" /> */}
         <CTA key="cta" />
         <Footer key="footer" />
       </div>
