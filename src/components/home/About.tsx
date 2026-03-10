@@ -153,6 +153,26 @@ const About = () => {
               <p className="about-text text-sm sm:text-base md:text-lg text-gray-600 dark:text-gray-300 leading-relaxed">
                 With our focus on creativity and cutting-edge technology, we bring your ideas to life and transform them into powerful digital experiences. Our team combines technical expertise with creative vision to deliver solutions that not only meet your requirements but exceed your expectations.
               </p>
+              <p className="about-text text-xs sm:text-sm md:text-base text-gray-600 dark:text-gray-300 leading-relaxed">
+                The name <span className="font-semibold text-primary">JantaraX</span> is inspired by{" "}
+                <span className="font-semibold">“Jantar / Yantra”</span>—intelligent systems and mechanisms—and the
+                letter <span className="font-semibold">“X”</span>, which represents exponential innovation, the future,
+                and limitless possibilities. Together, it stands for{" "}
+                <span className="font-semibold text-primary">
+                  intelligent digital systems powered by exponential innovation
+                </span>{" "}
+                for businesses worldwide.
+              </p>
+              <p className="about-text text-xs sm:text-sm md:text-base text-gray-600 dark:text-gray-300 leading-relaxed">
+                JantaraX Global IT Pvt. Ltd. is a registered Indian private limited company incorporated on{" "}
+                <span className="font-semibold">11 February 2026</span> under the Companies Act, 2013. Our key statutory
+                identifiers are:{" "}
+                <span className="font-semibold text-primary">CIN U62099UP2026PTC43910</span>,{" "}
+                <span className="font-semibold text-primary">PAN AAHCJ2698H</span>,{" "}
+                <span className="font-semibold text-primary">TAN LKNJ08951F</span>, and GST registration number{" "}
+                <span className="font-semibold text-primary">09AAHCJ2698H1Z2</span>, as documented in our official
+                incorporation and Memorandum of Association.
+              </p>
             </div>
             <div className="mt-6 sm:mt-8 grid grid-cols-2 gap-4 sm:gap-6">
               <div className="about-stats text-center sm:text-left">

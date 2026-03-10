@@ -90,7 +90,11 @@ const TermsPage = () => {
               {/* Introduction */}
               <div className="terms-section bg-white dark:bg-gray-800 rounded-lg p-4 sm:p-6 md:p-8 shadow-sm border border-gray-200 dark:border-gray-700">
                 <p className="text-gray-700 dark:text-gray-300 leading-relaxed text-sm sm:text-base md:text-lg">
-                  By accessing or using our website and services, you agree to the following Terms & Conditions:
+                  By accessing or using our website and services, you agree to the following Terms &amp; Conditions.{" "}
+                  <span className="font-semibold text-primary">JantaraX Global IT Pvt. Ltd.</span> operates as a
+                  registered Indian private limited company with GST registration number{" "}
+                  <span className="font-semibold text-primary">09AAHCJ2698H1Z2</span>, as recorded in our duly filed
+                  Memorandum of Association (MoA).
                 </p>
               </div>
 

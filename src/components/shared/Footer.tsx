@@ -27,7 +27,7 @@ const Footer = () => {
   ];
 
   const quickLinks = [
-    { name: "About Us", href: "/#about" },
+    { name: "About Us", href: "/about" },
     { name: "Services", href: "/services" },
     { name: "Products", href: "/products" },
     { name: "Contact", href: "/contact" }
@@ -180,10 +180,13 @@ const Footer = () => {
       <div className="border-t border-gray-200/30 dark:border-gray-700/30 bg-transparent">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-6">
           <div className="flex flex-col sm:flex-row items-center justify-between gap-4">
-            <div className="text-sm text-gray-600 dark:text-gray-400">
+            <div className="text-sm text-gray-600 dark:text-gray-400 text-center sm:text-left">
               © {currentYear} 
                 <span className="mx-1">JantaraX Global IT Pvt. Ltd.</span>
-              All rights reserved.
+              All rights reserved.{" "}
+              <span className="block sm:inline text-xs sm:text-sm text-gray-500 dark:text-gray-500">
+                GSTIN: <span className="font-medium">09AAHCJ2698H1Z2</span>
+              </span>
             </div>
             
             <div className="flex items-center gap-6 text-sm">
@@ -197,7 +200,13 @@ const Footer = () => {
                 href="/terms" 
                 className="text-gray-600 dark:text-gray-400 hover:text-primary transition-colors duration-300"
               >
-                Terms of Service
+                Terms &amp; Conditions
+              </Link>
+              <Link 
+                href="/disclaimer" 
+                className="text-gray-600 dark:text-gray-400 hover:text-primary transition-colors duration-300"
+              >
+                Disclaimer
               </Link>
               <Link 
                 href="/admin/feedback" 

@@ -90,7 +90,12 @@ const PrivacyPolicyPage = () => {
               {/* Introduction */}
               <div className="privacy-section bg-white dark:bg-gray-800 rounded-lg p-4 sm:p-6 md:p-8 shadow-sm border border-gray-200 dark:border-gray-700">
                 <p className="text-gray-700 dark:text-gray-300 leading-relaxed text-sm sm:text-base md:text-lg">
-                  At <span className="font-semibold text-primary">JantaraX Global IT Pvt. Ltd.</span>, we respect your privacy and are committed to protecting your personal information. This Privacy Policy explains how we collect, use, and safeguard your data when you use our website, applications, and services.
+                  At <span className="font-semibold text-primary">JantaraX Global IT Pvt. Ltd.</span>, we respect your
+                  privacy and are committed to protecting your personal information. This Privacy Policy explains how we
+                  collect, use, and safeguard your data when you use our website, applications, and services. JantaraX
+                  Global IT Pvt. Ltd. is a registered Indian private limited company with GST registration number{" "}
+                  <span className="font-semibold text-primary">09AAHCJ2698H1Z2</span>, as reflected in our official
+                  Memorandum of Association (MoA).
                 </p>
               </div>
 
